@@ -10,4 +10,9 @@ function greet(person) {
 
 console.log(greet('Alice'));
 
-console.log(greeat('Bob'));
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map((num) => num * 2);
+console.log('Doubled numbers:', doubled);
+
+const total = numbers.reduce((sum, num) => sum + num, 0);
+console.log('Total:', total);
